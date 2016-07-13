@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+ul.sidebar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #black;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+}
+
+ul.sidebar li {
+  float: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+}
+
+ul.sidebar li a {
+  display: block;
+  color: white;
+  padding: 8px 0 8px 100px;
+  text-decoration: none;
+}
+
+ul.sidebar li a:hover:not(.active) {
+  background-color: #555
+  color: white;
+}
